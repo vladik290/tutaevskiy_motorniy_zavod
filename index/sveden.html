@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../less/style.less">
+    <link rel="stylesheet" href="../fonts/stylesheet.css">
+    <title>MAIN</title>
+    <style>
+        /* Стили для выпадающего меню */
+        .header-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .header-content li {
+            position: relative;
+        }
+
+        .header-content a {
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            color: black; /* Цвет текста */
+            transition: color 0.3s ease; /* Плавный переход цвета текста */
+        }
+
+        /* Убираем большие отступы и изменяем цвет текста в выпадающем списке */
+        .dropdown-menu {
+            padding: 0; /* Убирае�� отступы */
+            margin: 0; /* Убираем отступы */
+            background-color: #06255B; /* Цвет фона выпадающего меню */
+            border-radius: 4px; /* Радиус скругления */
+            color: black;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+        }
+
+        .dropdown-item {
+            color: #333; /* Цвет текста */
+            background-color: transparent; /* Цвет фона */
+            padding: 10px 20px;
+            font-family: 'Futura PT', sans-serif;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-item:hover {
+            background-color: #f2f2f2; /* Цвет фона при наведении на элемент */
+            color: #333; /* Цвет текста при наведении */
+        }
+        .nav justify-content-center {
+            margin: 0;
+        }
+        .dropdown-item {
+            margin: 0;
+            padding: 0;
+        }
+        
+    </style>
+</head>
+<body>
+   <header class="header" style="background-color: #06255B;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2">
+                    <div class="header-img">
+                        <h1>ТУТАЕВСКИЙ <br>МОТОРНЫЙ ЗАВОД</h1>
+                    </div>
+                </div>
+                <div class="col-xl-10">
+                    <div class="header-content">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">О нас</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="history.html">История</a></li>
+                                    <li><a class="dropdown-item" href="team.html">Корпоративное управление</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Продукция</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                    <li><a class="dropdown-item" href="dvigatel.html">Двигатели и коробки <br> передач </a></li>
+                                    <li><a class="dropdown-item" href="productciya.html">Продукция с сертификатом <br>Речного Регистра</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Услуги</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                    <li><a class="dropdown-item" href="remontdvigat.html">Ремонт двигателей</a></li>
+                                    <li><a class="dropdown-item" href="shtampovka.html">Штамповка</a></li>
+                                    <li><a class="dropdown-item" href="nelikvid.html">Продажа неликвидов</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">Покупка и сервисы</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                    <li><a class="dropdown-item" href="proverka.html">Проверка оригинальности двигателя</a></li>
+                                    <li><a class="dropdown-item" href="torgdom.html"> Торговый дом</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">Персонал</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                                    <li><a class="dropdown-item" href="personal.html">Основные сведения</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">Контакты</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                                    <li><a class="dropdown-item" href="kontakti.html">Контактная информация</a></li>
+                                   
+                                </ul>
+                            </li>
+                            <li><a href="main.html">На главную</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            
+            </div>
+          
+        </div>
+   </header>
+<section class="team">
+    <div class="container">
+        <div class="row">
+            <h4 style="font-family: 'Futura PT'; font-size: 29px; text-align: center; margin-bottom: 2rem;">Сведения о регистрации и товарном знаке</h4>
+            <div class="col-xl-3">
+                <ul style="margin-top: 1rem;">
+                    <li><a href="#">Сведения о регистрации и товарном знаке</a></li>
+                    <li>Корпоративное управление
+                        <ul>
+                            <li><a href="gendir.html">Генеральный директор</a></li>
+                            <li><a href="team.html">Совет директоров</a></li>
+                            <li><a href="reviz.html">Ревизионная комиссия</a></li>
+                        </ul>
+                    </li>
+                    <li>Комплаенс
+                        <ul>
+                            <li><a href="kamaz.html">Комплаенс-политика группы организаций ПАО «КАМАЗ»</a></li>
+                            <li><a href="kodeks.html">Кодекс корпоративной этики ПАО «КАМАЗ»</a></li>
+                            <li><a href="proizvod.html">ПРОИЗВОДСТВЕННАЯ СИСТЕМА ПАО "ТМЗ"</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-8 ">
+                <div class="team-table">
+                    <p>
+ 	
+                        Согласно Закону РФ «О приватизации государственных и муниципальных предприятий в Российской федерации» путем преобразования государственного предприятия «Тутаевский моторный завод» создано акционерное общество открытого типа «Тутаевский моторный завод». Устав утвержден Конференцией трудового коллектива ТМЗ (протокол от 11.09.92), а также Учредителем – Комитетом по управлению государственным имуществом Ярославской области 31.03.93 и зарегистрирован в соответствии с распоряжением Главы Администрации г. Тутаева и Тутаевского района от 07.04.93 № 618.
+                        
+                        Свидетельством о государственной регистрации (перерегистрации)
+                        30.06.1998 года акционерное общество открытого типа - АООТ «ТМЗ» - переименовано в открытое акционерное общество - ОАО «ТМЗ».
+                        
+                        В соответствии с решением годового Общего собрания акционеров ОАО «ТМЗ» от 9 июня 2017 года (протокол № 26) в целях приведения в соответствие с Гражданским кодексом Российской Федерации Общество переименовано из Открытого акционерного общества «Тутаевский моторный завод» в Публичное акционерное общество «Тутаевский моторный завод» (ПАО «ТМЗ»).
+                        
+                        ПАО «ТМЗ» имеет Свидетельство на товарный знак (знак обслуживания) № 217600. В силу ст. 1484 Гражданского кодекса РФ владелец товарного знака имеет исключительное право распоряжаться товарным знаком, а также запрещать его использование другим лицам.
+                        
+                        О случаях незаконного использования товарного знака ПАО «ТМЗ» просим сообщать по телефонам: (48533) 2-16-35 - отдел технического контроля ПАО «ТМЗ», (48533) 2-00-10 - управление защиты ресурсов ПАО «ТМЗ», (48533) 2-14-65 - служба маркетинга и сбыта продукции ПАО «ТМЗ».</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="kart">
+    <div class="container">
+        <div class="kart-img">
+            <img src="../img/tmz_logo.png" alt="" style="width: 100px;">
+        </div>
+    </div>
+</section>
+<section class="podval">
+    <div class="container">
+        <div class="row">
+            <div class="podval-text">
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Продукция</a></li>
+                    <li><a href="news.html">Услуги</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul> <br> 
+                <p>ООО “Организация” 2020. Все права защищены</p>
+            </div>
+        </div>
+    </div>
+</section>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+   </body>
+   </html>

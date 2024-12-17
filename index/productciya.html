@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../less/style.less">
+    <link rel="stylesheet" href="../fonts/stylesheet.css">
+    <title>MAIN</title>
+    <style>
+        /* Стили для выпадающего меню */
+        .header-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .header-content li {
+            position: relative;
+        }
+
+        .header-content a {
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            color: black; /* Цвет текста */
+            transition: color 0.3s ease; /* Плавный переход цвета текста */
+        }
+
+        /* Убираем большие отступы и изменяем цвет текста в выпадающем списке */
+        .dropdown-menu {
+            padding: 0; /* Убирае�� отступы */
+            margin: 0; /* Убираем отступы */
+            background-color: #06255B; /* Цвет фона выпадающего меню */
+            border-radius: 4px; /* Радиус скругления */
+            color: black;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+        }
+
+        .dropdown-item {
+            color: #333; /* Цвет текста */
+            background-color: transparent; /* Цвет фона */
+            padding: 10px 20px;
+            font-family: 'Futura PT', sans-serif;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-item:hover {
+            background-color: #f2f2f2; /* Цвет фона при наведении на элемент */
+            color: #333; /* Цвет текста при наведении */
+        }
+        .nav justify-content-center {
+            margin: 0;
+        }
+        .dropdown-item {
+            margin: 0;
+            padding: 0;
+        }
+        
+    </style>
+</head>
+<body>
+   <header class="header" style="background-color: #06255B;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2">
+                    <div class="header-img">
+                        <h1>ТУТАЕВСКИЙ <br>МОТОРНЫЙ ЗАВОД</h1>
+                    </div>
+                </div>
+                <div class="col-xl-10">
+                    <div class="header-content">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">О нас</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="history.html">История</a></li>
+                                    <li><a class="dropdown-item" href="team.html">Корпоративное управление</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Продукция</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                    <li><a class="dropdown-item" href="dvigatel.html">Двигатели и коробки <br> передач </a></li>
+                                    <li><a class="dropdown-item" href="productciya.html">Продукция с сертификатом <br>Речного Регистра</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Услуги</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                    <li><a class="dropdown-item" href="remontdvigat.html">Ремонт двигателей</a></li>
+                                    <li><a class="dropdown-item" href="shtampovka.html">Штамповка</a></li>
+                                    <li><a class="dropdown-item" href="nelikvid.html">Продажа неликвидов</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">Покупка и сервисы</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                    <li><a class="dropdown-item" href="proverka.html">Проверка оригинальности двигателя</a></li>
+                                    <li><a class="dropdown-item" href="torgdom.html"> Торговый дом</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">Персонал</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                                    <li><a class="dropdown-item" href="personal.html">Основные сведения</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">Контакты</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                                    <li><a class="dropdown-item" href="kontakti.html">Контактная информация</a></li>
+                                   
+                                </ul>
+                            </li>
+                            <li><a href="main.html">На главную</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            
+            </div>
+          
+        </div>
+   </header>
+<section class="team">
+    <div class="container">
+        <div class="row">
+            <h4 style="font-family: 'Futura PT'; font-size: 29px; text-align: center; margin-bottom: 2rem;">Комплаенс-политика группы организаций ПАО «КАМАЗ»</h4>
+            <div class="col-xl-3">
+                <ul style="margin-top: 1rem;">
+                    
+                        <ul>
+                            <li><a href="dvigatel.html">Двигатели и коробки передач</a></li>
+                            <li><a href="tyagovie.html">Тяговые лебедки</a></li>
+                        </ul>
+                    
+                    Продукция с сертификатом Речного Регистра
+                        <ul>
+                            <li><a href="#">Каталоги</a></li>
+                            <li><a href="#">Руководства по эксплуатации</a></li>
+                            <li><a href="">Технические паспорта, регламенты</a></li>
+                        </ul>
+                    Инструкции, дополнительная информация
+                </ul>
+            </div>
+            <div class="col-xl-8 ">
+                <div class="team-table">
+                    <p>ПАО «Тутаевский моторный завод» готов предложить речникам судовые электроагрегаты и судовые реверс-редукторные агрегаты с дизельным приводом как минимум вдвое дешевле зарубежных аналогов. Все компоненты этой продукции имеют сертификаты Речного Регистра.</p>
+
+                    <h5>Судовые электроагрегаты ПАО «ТМЗ»</h5>
+                    
+                    <p>Судовые электроагрегаты АД-200, АД-250 и АД-315 производства ПАО «ТМЗ» изготавливаются на базе двигателей собственного производства и комплектуются генераторами, как отечественного, так и зарубежного исполнения.</p>
+                    
+                    <p>Судовые двигатели 8481.10-07, 8481.10-08, 8481.10-09 выполняются по техническим условиям, согласованным с Российским Речным Регистром, и поставляются (для последующей сборки) с сертификатом РРР.</p>
+                    
+                    <p>Силовые генераторы, входящие в состав судовых ДГ, так же как и базовые комплектующие, имеют одобрение Российского Речного Регистра и поставляются с сертификатом РРР.</p>
+                    
+                    <p>Судовые электроагрегаты ПАО «ТМЗ» предназначены для установки на речных судах в качестве основного и аварийного источника электрического тока частотой 50 Гц и напряжением 230 или 400 В и устанавливаются на речные буксиры, плавучие краны, земснаряды, гидроперегружатели и другие суда.</p>
+                    
+                    <p>Судовые электроагрегаты, выпускаемые ПАО «ТМЗ», просты в техническом обслуживании и ремонте, имеют высокий запас мощности и относительно низкий уровень потребления топлива, могут принимать до 100% нагрузки единовременно, обладают широким выбором запасных частей на российском рынке, непритязательны к качеству горюче-смазочных материалов, надежны и эффективны при эксплуатации в любых климатических условиях.</p>
+                    
+                    <p>Электроагрегаты ПАО «ТМЗ» представляют собой законченное изделие и поставляются в двух основных исполнениях:</p>
+                    <ul>
+                        <li>с двухконтурной системой охлаждения и теплообменником для забортной воды;</li>
+                        <li>с одноконтурной системой охлаждения и блоком радиаторов охлаждения;</li>
+                    </ul>
+                    <p><strong>Базовая комплектация судовых электроагрегатов:</strong></p>
+                    <ul>
+                        <li>сварная стальная рама с виброгасящими опорами;</li>
+                        <li>силовой одноопорный (двухопорный) генератор;</li>
+                        <li>дизельный двигатель ТМЗ;</li>
+                        <li>зарядный генератор и электростартер;</li>
+                        <li>двухпроводная схема электрооборудования;</li>
+                        <li>устройство рабочего останова двигателя;</li>
+                        <li>заслонка аварийного останова по воздуху;</li>
+                        <li>система смазки с водомасляным радиатором, встроенным в двигатель;</li>
+                        <li>система топливоподачи с топливными баками и топливными фильтрами;</li>
+                        <li>система охлаждения с водяным радиатором;</li>
+                        <li>охладитель наддувочного воздуха (для одноконтурной системы охлаждения);</li>
+                        <li>система охлаждения с теплообменником и насосом забортной воды (для двухконтурной системы охлаждения);</li>
+                        <li>система впуска с воздушным фильтром;</li>
+                        <li>система выпуска с компенсатором и глушителем;</li>
+                        <li>система управления электроагрегатом с местным и выносным пультом управления, позволяющая во время работы обеспечивать измерение, отображение и АПС необходимых параметров дизеля и генератора.</li>
+                    </ul>
+                    <p>Предлагаем речникам и транспортным компаниям судовые дизель-редукторные агрегаты серии ДРА-ТМЗ «РЕКА 320», ДРА-ТМЗ «РЕКА 400», ДРА-ТМЗ «РЕКА 465» мощностью от 320 до 465 л.с. Они серийно выпускаются ПАО «ТМЗ» на базе современных и экономичных высокооборотных двигателей собственного производства.</p>
+                    
+                    <p>Каждый реверс-редукторный агрегат поставляется с сертификатом Российского Речного Регистра. Реверс-редукторы имеют одинаковые передаточные отношения для заднего и переднего хода, что делает возможным их применение на двухвальных судах, а широкая линейка передаточных чисел дает возможность подобрать замену любому дизелю.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="kart">
+    <div class="container">
+        <div class="kart-img">
+            <img src="../img/tmz_logo.png" alt="" style="width: 100px;">
+        </div>
+    </div>
+</section>
+<section class="podval">
+    <div class="container">
+        <div class="row">
+            <div class="podval-text">
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Продукция</a></li>
+                    <li><a href="news.html">Услуги</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul> <br> 
+                <p>ООО “Организация” 2020. Все права защищены</p>
+            </div>
+        </div>
+    </div>
+</section>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+   </body>
+   </html>
